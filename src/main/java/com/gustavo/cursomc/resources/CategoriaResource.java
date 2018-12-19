@@ -13,7 +13,7 @@ import com.gustavo.cursomc.domain.Categoria;
 @RequestMapping(value="/categorias")
 public class CategoriaResource {
 	
-	@RequestMapping(method=RequestMethod.GET) // ou @GetMapping
+	@RequestMapping(method=RequestMethod.GET) //@GetMapping
 	public List<Categoria> listar() {
 		
 		Categoria cat1 = new Categoria(1, "Informática");
