@@ -5,9 +5,6 @@ import java.util.Date;
 import javax.persistence.Entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.gustavo.cursomc.domain.Pagamento;
-import com.gustavo.cursomc.domain.Pedido;
 import com.gustavo.cursomc.domain.enums.EstadoPagamento;
 
 @Entity
